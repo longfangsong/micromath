@@ -92,6 +92,7 @@
 )]
 
 mod f32ext;
+mod f64ext;
 #[cfg(feature = "quaternion")]
 pub mod quaternion;
 #[cfg(feature = "statistics")]
@@ -100,6 +101,7 @@ pub mod statistics;
 pub mod vector;
 
 pub use crate::f32ext::F32Ext;
+pub use crate::f64ext::F64Ext;
 #[cfg(feature = "quaternion")]
 pub use crate::quaternion::Quaternion;
 #[cfg(feature = "vector")]
